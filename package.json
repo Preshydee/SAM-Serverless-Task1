@@ -1,0 +1,16 @@
+{
+  "name": "sam-dynamodb-todo-app",
+  "version": "1.0.0",
+  "description": "## Overview This Todo List API is built using AWS Lambda and DynamoDB. The application allows users to create, read, update, and delete todo items. This serverless approach ensures scalability and cost-effectiveness, leveraging AWS managed services.",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1692.0",
+    "uuid": "^9.0.1"
+  }
+}
